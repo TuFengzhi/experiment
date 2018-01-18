@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# Python:
+*.py[cod]
+*.so
+*.egg
+*.egg-info
+dist
+build
+
+# Dataset
+cifar10/data/
+
+# Training
+cifar10/checkpoint/
+
+# FTP
+sftp-config.json
