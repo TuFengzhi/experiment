@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 def filter1(img):
-	print img.size()
+	print(img)
 	hist, bins = np.histogram(img.flatten(), 256, [0,256])
 	cdf = hist.cumsum()
 	cdf_normalized = cdf * hist.max() / cdf.max()
